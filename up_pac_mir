@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Update install mirrors for pacman package manager
+
+yes | sudo pacman-mirrors -f5
+sudo pacman -Syyu
